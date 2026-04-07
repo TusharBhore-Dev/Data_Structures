@@ -4,15 +4,12 @@
 
             START
 
-                Create the node newn
-                
-                Initialize the data and initialize the next pointer to NULL
-                
                 Check if the linked list is empty or not
                 
-                if it is empty assign the address of newn in the head
-                and if it is not empty then assign the address of the first node 
-                to the next of the newn and assign the address of newn in the head
+                if it is empty return 
+                
+                if it is not empty then store the address of second node in the head
+                and delete the first node 
 
                 Display the nodes and count of elements
 
@@ -20,6 +17,7 @@
 
 
 */
+
 
 
     /////////////////////////////////////////////////////////////////
