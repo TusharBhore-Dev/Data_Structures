@@ -10,9 +10,13 @@
                 
                 Check if the linked list is empty or not
                 
-                if it is empty assign the address of newn in the head
-                and if it is not empty then assign the address of the first node 
-                to the next of the newn and assign the address of newn in the head
+                if the linked  list is empty return
+
+                if the position is 1 call the insertatfirst()
+                if the position is count + 1 then call the function insertlast()
+                if inbetween then travel to poition - 1 
+
+                then add the new node at that position
 
                 Display the nodes and count of elements
 
@@ -20,6 +24,7 @@
 
 
 */
+
 
 
     /////////////////////////////////////////////////////////////////
